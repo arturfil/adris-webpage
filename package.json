@@ -1,0 +1,22 @@
+{
+  "name": "adris-webpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arturfil/adris-webpage.git"
+  },
+  "author": "Arturo Filio Villa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arturfil/adris-webpage/issues"
+  },
+  "homepage": "https://github.com/arturfil/adris-webpage#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
