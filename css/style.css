@@ -1,0 +1,90 @@
+/* general classes */
+
+.elegant {
+    font-family: 'Adamina', sans-serif;
+}
+
+/* Header */
+
+nav {
+    height: 100px;
+}
+
+.nav-wrapper {
+    vertical-align: center;
+    margin-top: 20px;
+}
+
+nav .brand-logo {
+    color: black;
+    margin-left: -150px;
+    text-decoration: none;
+}
+
+nav ul a {
+    color: black;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+nav ul a:hover {
+    text-decoration: none;
+}
+
+nav .menu-list {
+    margin-left: -190px;
+}
+
+/* first page */
+
+.first-page {
+    background-color: #E2E1DC;
+}
+
+.first-page .container {
+    width: 500px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+/* About me  */
+
+.about-me .container {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.about-me h2 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.about-me p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.about-me .row {
+    margin-top: 40px;
+}
+
+.about-me i {
+    border: solid 3px black;
+    margin: 25px;
+    padding: 25px 15px;
+    border-radius: 8px;
+}
+
+
+
+
+
