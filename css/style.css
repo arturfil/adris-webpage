@@ -18,6 +18,16 @@ body {
     text-align: center;
 }
 
+.btn {
+    margin-top: 20px;
+    border: white .5px solid;
+    border-radius: 0;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+} 
+
 /* Nav-bar */
 
 .nav {
@@ -232,6 +242,154 @@ h1 {
 .no-padding {
     padding: 0 !important;
     margin: 0 !important;
+}
+
+/* Staff Image */
+
+#staff-img {
+    min-height: 600px;
+}
+
+#staff-img .img-background {
+    margin-top: 120px;
+    background-size: cover;
+    background-image: url('/img/bellas-artes.jpeg');
+    padding: 0;
+}
+
+.image-overlay {
+    background-color: rgba(216, 216, 216, 0.8);
+    background-size: cover;
+    min-height: 500px;
+}
+
+#staff-img .title {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: center;
+    padding-top: 25%;
+    font-size: 28px;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+/* Staff Services */
+
+#staff-services {
+    min-height: 300px;
+}
+
+#staff-services .text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#staff-services .box {
+    width: 80%;
+}
+
+#staff-services i {
+    color: #d34609;
+
+}
+
+#staff-services p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100 !important;
+    letter-spacing: .2px;    
+    color: #32212b96;
+    font-size: .875rem;
+    line-height: 1.7;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+    content: "";
+}
+
+#staff-services p:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+
+}
+
+/* Contact Us */
+
+#contact-us {
+    background-color: white;
+    min-height: 700px;
+    margin-bottom: 40px;
+    padding-top: 10px;
+}
+
+#contact-us .title {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 120px;
+    font-size: 28px;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+#contact-us p {
+    width: 70%;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin: 20px auto 20px auto;
+    font-weight: 100;
+    letter-spacing: .2px;    
+    color: #32212b96;
+    font-size: .875rem;
+    line-height: 1.7;
+    text-rendering: optimizeLegibility;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+#contact-us form {
+    text-align: center;
+    margin: 0 auto;
+    width: 456px;
+}
+
+#contact-us .hidden {
+    display: none;
+}
+
+#contact-us input {
+    text-indent: 10px;
+    width: 100%;
+    height: 60px;
+    margin: 10px 0;
+}
+
+#contact-us textarea {
+    width: 100%;
+    border-color: lightgrey;
+    padding: 0 10px;
+}
+
+#contact-us input::-webkit-input-placeholder, 
+textarea::-webkit-input-placeholder, #contact-us select {
+    color: lightgrey;
+    font-weight: 100;
+    display: inline-block;
+    margin-inline-start: 20px;
+}
+
+#contact-us button {
+    color: #d34609;
+    border: 1px #d34609 solid;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+#contact-us button:hover {
+    color: white;
+    background-color: #d34609;
+    border: 1px lightgrey solid;
+    padding: 10px 20px !important;
 }
 
 /* Footer */
