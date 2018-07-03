@@ -6,24 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Adriana Fuentes</title>
 
-    <!-- Animate css lib -->
+    <!-- Animate CSS Library -->
     <link rel="stylesheet" href="/css/animate.css">
-
-    <!-- Bootstrap Lib in case I need it-->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
-    rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-    crossorigin="anonymous">
-
-    <!-- Materialize CSS script  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Adamina|Quicksand" rel="stylesheet">
-
-    <!-- Font-Awesome Icons lib -->
+    <link href="https://fonts.googleapis.com/css?family=Adamina|Quicksand|Montserrat:300,400" rel="stylesheet">
+    
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
     integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-    crossorigin="anonymous">
+        crossorigin="anonymous">
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" 
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
     
     <!-- Custom css stylesheet-->
     <link rel="stylesheet" href="./css/style.css">
@@ -32,67 +29,213 @@
 <body>
     
     <!-- Navbar Code Starts Here -->
-    
-    <div class="navbar-fixed">
-        <nav class=" white">
-            <div class="nav-wrapper">
-                <div class="container brand">
-                    <a href="#" class="brand-logo elegant ">Adriana Fuentes</a>
-                </div>
-                <div class="container menu-list">
-                    <ul id="nav-mobile" class="font right hide-on-med-and-down">
-                        <li>
-                            <a href="#">About Me</a>
-                        </li>
-                        <li>
-                            <a href="#">Expirience</a>
-                        </li>
-                        <li>
-                            <a href="">Education</a>
-                        </li>
-                        <li>
-                            <a href="">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-
-    <section class="first-page">
+    <nav class=" nav navbar sticky-top navbar-expand-sm navbar-light" style="background-color: rgba(#fff) position-fixed">
         <div class="container">
-            <h1>Simplity,</h1>
-            <h1>Design,</h1>
-            <h1>Fashion,</h1>
-            <h1>Uniqueness.</h1>
+            <a href="#landing-page" class="nav-link">
+                <img src="/img/logo-seri.jpg" alt="">
+            </a>
+            <a href="#landing-page" class="navbar-brand elegant btn-landing">Adriana Fuentes</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <!-- <li class="nav-item">
+                            <a href="#services" class="nav-link hov-anim">Servicios</a>
+                        </li> -->
+                    <li class="nav-item ">
+                        <a href="#our-clients" class="hov-anim nav-link">About Me</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#our-clients" class="hov-anim nav-link">My Background</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#our-clients" class="hov-anim nav-link">My Work</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="#our-clients" class="hov-anim nav-link">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Landing Page -->
+    <section class="first-page">
+        <div class="header-overlay">
+            <div class="container wow slideInUp">
+                <h1 class="wow slideInDown title-1">Simplicity,</h1>
+                <h1 class="wow slideInRight title-2">Design,</h1>
+                <h1 class="wow slideInLeft title-3">Fashion,</h1>
+                <h1 class="wow slideInUp title-4">Uniqueness.</h1>
+            </div>
         </div>
     </section>
 
+    <!-- About Me -->
     <section class="about-me">
         <div class="container">
-            <h2>Some things about me...</h2>
-            <p>The things that I am really passionate for</p>
+            <h2 class="wow slideInUp">About Me</h2>
+            <hr class="general wow slideInUp">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 wow fadeInLeft">
                     <h3>Design</h3>
                     <i class="fa fa-tshirt fa-3x"></i>
                     <p class="small-paragraph">I love everything about design. From fashion to graphic</p>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 wow fadeInDown">
                     <h3>Trends</h3>
                     <i class="fas fa-glasses fa-3x"></i>
                     <p class="small-paragraph">I like to be up to date with the latest trends, but also I like a classy look, it never fails...</p>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 wow fadeInRight">
                     <h3>Style</h3>
                     <i class="fas fa-3x fa-plane"></i>
                     <p class="small-paragraph">I enjoy a classy and exiting life style in every sense of the word, it is alway important to keep style and originallity</p>
                 </div>
             </div>
         </div>
-    </section>  
+    </section> 
+    
+    <!-- My Background -->
+    <section id="my-background">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-12">
+                    <div class="container text">
+                        <h2 class="elegant title wow fadeInLeft">My Background</h2>
+                        <hr class="general wow fadeInLeft">
+                        <div class="container wow slideInUp">
+                            <p class="wow slideInUp">
+                                I graudated from a Comunicatinos Bachelor in Public Relations and a Minor in Design.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat molestiae excepturi 
+                                voluptas cum quibusdam, id delectus reiciendis quos accusantium corrupti? Earum dolor 
+                                asperiores magnam. Eum provident aperiam tenetur quia illum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-12 image-block">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Work -->
+    <section id="my-work">
+        <h2 class="elegant title wow slideInDown">My Work</h2>
+        <hr class="general wow slideInLeft">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="hover-eff"></div>
+                <div class="col-md-3 col-sm-6 col-6 no-padding">
+                    <div class="hover-eff">
+                        <img src="/img/bellas-artes.jpeg" alt="">
+                        <div class="img-overlay">Agencias de Autos</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 no-padding">
+                    <div class="hover-eff">
+                        <img src="/img/fabric.jpeg" alt="">
+                        <div class="img-overlay">Aseguradoras</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 no-padding">
+                    <div class="hover-eff">
+                        <img src="/img/bellas-artes.jpeg" alt="">
+                        <div class="img-overlay">Compañías Telefonicas</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 no-padding">
+                    <div class="hover-eff">
+                        <img src="/img/fabric.jpeg" alt="">
+                        <div class="img-overlay">Fábricas</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-6 no-padding">
+                    <div class="hover-eff">
+                        <img src="/img/fabric.jpeg" alt="">
+                        <div class="img-overlay">Financieras Populares</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 no-padding">
+                    <div class="hover-eff">
+                        <img src="/img/bellas-artes.jpeg" alt="">
+                        <div class="img-overlay">Compañías Textiles</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 no-padding">
+                    <div class="hover-eff">
+                        <img src="/img/fabric.jpeg" alt="">
+                        <div class="img-overlay">Sistemas de Cómputo</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-6 no-padding">
+                    <div class="hover-eff">
+                        <img src="/img/bellas-artes.jpeg" alt="">
+                        <div class="img-overlay">Empresas Agricultoras</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <h2 class="elegant">Adriana Fuentes</h2>
+            <p>
+                Teléfono: 55 5339-2200
+            </p>
+            <p>Email: contacto@gruposeri.com</p>
+        </div>
+        <div class="container footer-block">
+            <div class="row">
+                <div class="col-md-4 col-4">
+                    <a href="https://www.facebook.com/GrupoSERI/">
+                        <i class="fab fa-3x fa-facebook"></i>
+                    </a>
+                </div>
+                <div class="col-md-4 col-4">
+                    <a href="https://www.linkedin.com/company/gruposeri/">
+                        <i class="fab fa-3x fa-linkedin"></i>
+                    </a>
+                </div>
+                <div class="col-md-4 col-4">
+                    <a href="https://twitter.com/@gruposerimx/">
+                        <i class="fab fa-3x fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container go-to-top">
+            <a href="#landing-page" class="btn-landing">
+                <i class="fas fa-angle-up fa-3x"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- WOW JQuery Library -->
+    <script src="/js/wow.min.js"></script>
+    
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    
+    <!-- Custom Script (JavaScript File) -->
+    <script src="/js/main.js"></script>
 
 </body>
 </html>
