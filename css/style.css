@@ -1,7 +1,7 @@
 /* General Classes */
 
 .elegant {
-    font-family: 'Adamina', sans-serif;
+    font-family: sans-serif;
 }
 
 body {
@@ -14,7 +14,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 0;
-    border: 1px #d34609 solid;
+    border: 1px #c8a3e0 solid;
     text-align: center;
 }
 
@@ -48,7 +48,7 @@ body {
 .navbar .nav-item.active {
     font-size: 10px;
     font-weight: 600;
-    border-left: #d34609 3px solid !important;
+    border-left: #c8a3e0 3px solid !important;
 }
 
 .navbar .nav-link {
@@ -58,7 +58,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #d34609 !important;        
+    color: #c8a3e0 !important;        
     letter-spacing: 2px;
     background-size: 100%;
 }
@@ -68,7 +68,7 @@ body {
     display: block;
     width: 0;
     height:1px;
-    background: #d34609;
+    background: #c8a3e0;
     transition: width .3s;
 }
 
@@ -79,7 +79,7 @@ body {
 
 /* first page */
 
-.first-page {
+#first-page {
     background-color: #E2E1DC;
     background-image: url("../img/bellas-artes.jpeg");
     background-size: cover;
@@ -94,7 +94,7 @@ body {
     height: 600px;
 }
 
-.first-page .container {
+#first-page .container {
     width: 500px;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -126,34 +126,34 @@ h1 {
 
 /* About me  */
 
-.about-me .container {
+#about-me .container {
     padding-top: 50px;
     text-align: center;
 }
 
-.about-me h2 {
+#about-me h2 {
     text-align: center;
-    font-weight: 500;
+    font-weight: 300;
     text-transform: uppercase;
 }
 
-.about-me p {
+#about-me p {
     text-align: justify;
     font-size: 15px;
     font-weight: 100;
 }
 
-.about-me .row {
+#about-me .row {
     margin: 40px 0;
 
 }
 
-.about-me i {
-    border: solid 3px #d34609;
+#about-me i {
+    border: solid 3px #c8a3e0;
     margin: 25px;
     padding: 25px 15px;
     border-radius: 8px;
-    color: #d34609
+    color: #c8a3e0;
 }
 
 /* My Background */
@@ -167,6 +167,7 @@ h1 {
     padding-top: 80px;
     text-transform: uppercase;
     text-align: center;
+    font-weight: 300;
 }
 
 #my-background hr {
@@ -290,7 +291,7 @@ h1 {
 }
 
 #staff-services i {
-    color: #d34609;
+    color: #c8a3e0;
 
 }
 
@@ -379,15 +380,15 @@ textarea::-webkit-input-placeholder, #contact-us select {
 }
 
 #contact-us button {
-    color: #d34609;
-    border: 1px #d34609 solid;
+    color: #c8a3e0;
+    border: 1px #c8a3e0 solid;
     padding: 10px 20px;
     margin: 10px;
 }
 
 #contact-us button:hover {
     color: white;
-    background-color: #d34609;
+    background-color: #c8a3e0;
     border: 1px lightgrey solid;
     padding: 10px 20px !important;
 }
@@ -395,12 +396,12 @@ textarea::-webkit-input-placeholder, #contact-us select {
 /* Footer */
 
 footer {
-    background-color: black;
+    background-color: whitesmoke;
     min-height: 300px;
 }
 
 footer h2 {
-    color: white;
+    color: grey;
     font-weight: 200;
     text-transform: uppercase;
     padding-top: 40px;
@@ -410,7 +411,7 @@ footer h2 {
 .hr-footer {
     width: 100px;
     padding: 0;
-    border: 1px white solid;
+    border: 1px grey solid;
 }
 
 .footer-block {
@@ -420,15 +421,15 @@ footer h2 {
 }
 
 footer p {
-    color: white;
+    color: grey;
 }
 
 footer a {
-    color: white;
+    color: grey;
 }
 
 footer .go-to-top {
-    color: white;
+    color: grey;
     text-align: right;
 }
 
